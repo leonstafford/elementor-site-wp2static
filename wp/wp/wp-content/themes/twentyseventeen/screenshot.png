@@ -91,10 +91,10 @@
 					
 
 <form role="search" method="get" class="search-form" action="http://example.test/">
-	<label for="search-form-5c2e58c444ebe">
+	<label for="search-form-5c2e5a42eaed2">
 		<span class="screen-reader-text">Search for:</span>
 	</label>
-	<input type="search" id="search-form-5c2e58c444ebe" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+	<input type="search" id="search-form-5c2e5a42eaed2" class="search-field" placeholder="Search &hellip;" value="" name="s" />
 	<button type="submit" class="search-submit"><svg class="icon icon-search" aria-hidden="true" role="img"> <use href="#icon-search" xlink:href="#icon-search"></use> </svg><span class="screen-reader-text">Search</span></button>
 </form>
 

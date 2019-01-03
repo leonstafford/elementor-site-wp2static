@@ -12,70 +12,70 @@
     [0] => Array
         (
             [0] => SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
-            [1] => 0.00054597854614258
+            [1] => 0.00054311752319336
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), wp_not_installed, is_blog_installed, wp_load_alloptions
         )
 
     [1] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'bedrock_autoloader' LIMIT 1
-            [1] => 0.00024199485778809
+            [1] => 0.00022697448730469
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), include_once('/mu-plugins/bedrock-autoloader.php'), Roots\Bedrock\Autoloader->__construct, Roots\Bedrock\Autoloader->loadPlugins, Roots\Bedrock\Autoloader->checkCache, get_site_option, get_network_option, get_option
         )
 
     [2] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'auth_key' LIMIT 1
-            [1] => 0.00024294853210449
+            [1] => 0.00021100044250488
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, wp_hash, wp_salt, get_site_option, get_network_option, get_option
         )
 
     [3] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'auth_salt' LIMIT 1
-            [1] => 0.0001978874206543
+            [1] => 0.0001068115234375
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, wp_hash, wp_salt, get_site_option, get_network_option, get_option
         )
 
     [4] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'autoptimize_extra_settings' LIMIT 1
-            [1] => 0.00021815299987793
+            [1] => 0.00018501281738281
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, do_action('autoptimize_setup_done'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->maybe_run_ao_extra, autoptimizeExtra->__construct, autoptimizeExtra->fetch_options, get_option
         )
 
     [5] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'autoptimize_imgopt_provider_stat' LIMIT 1
-            [1] => 0.0002131462097168
+            [1] => 0.0002601146697998
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, do_action('autoptimize_setup_done'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->maybe_run_ao_extra, autoptimizeExtra->run, autoptimizeExtra->run_on_frontend, autoptimizeExtra->get_imgopt_provider_userstatus, get_option
         )
 
     [6] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
-            [1] => 0.00014114379882812
+            [1] => 0.00017499923706055
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wpcf7, wpcf7_load_textdomain, get_locale, get_option
         )
 
     [7] => Array
         (
             [0] => SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') ORDER BY t.name ASC 
-            [1] => 0.0003361701965332
+            [1] => 0.00034284591674805
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Taxonomy_Sitemap_Provider->get_sitemap_links, get_terms, WP_Term_Query->query, WP_Term_Query->get_terms
         )
 
     [8] => Array
         (
             [0] => SELECT term_id, meta_key, meta_value FROM wp_termmeta WHERE term_id IN (1) ORDER BY meta_id ASC
-            [1] => 0.00018715858459473
+            [1] => 0.00011897087097168
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Taxonomy_Sitemap_Provider->get_sitemap_links, get_terms, WP_Term_Query->query, WP_Term_Query->get_terms, update_termmeta_cache, update_meta_cache
         )
 
     [9] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'wpseo_taxonomy_meta' LIMIT 1
-            [1] => 0.0001828670501709
+            [1] => 9.608268737793E-5
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Taxonomy_Sitemap_Provider->get_sitemap_links, WPSEO_Taxonomy_Meta::get_term_meta, WPSEO_Taxonomy_Meta::get_term_tax_meta, WPSEO_Taxonomy_Meta::get_tax_meta, get_option
         )
 
@@ -93,7 +93,7 @@
 			WHERE	p.post_status IN ('publish','inherit')
 				AND		p.post_password = ''
 		
-            [1] => 0.00022315979003906
+            [1] => 0.00026512145996094
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Taxonomy_Sitemap_Provider->get_sitemap_links
         )
 

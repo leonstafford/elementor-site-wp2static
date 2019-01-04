@@ -24,49 +24,49 @@
     [0] => Array
         (
             [0] => SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
-            [1] => 0.0006718635559082
+            [1] => 0.00045609474182129
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), wp_not_installed, is_blog_installed, wp_load_alloptions
         )
 
     [1] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'bedrock_autoloader' LIMIT 1
-            [1] => 0.00022602081298828
+            [1] => 0.00023984909057617
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), include_once('/mu-plugins/bedrock-autoloader.php'), Roots\Bedrock\Autoloader->__construct, Roots\Bedrock\Autoloader->loadPlugins, Roots\Bedrock\Autoloader->checkCache, get_site_option, get_network_option, get_option
         )
 
     [2] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'auth_key' LIMIT 1
-            [1] => 0.00026798248291016
+            [1] => 0.00030517578125
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, wp_hash, wp_salt, get_site_option, get_network_option, get_option
         )
 
     [3] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'auth_salt' LIMIT 1
-            [1] => 0.00010108947753906
+            [1] => 0.0001518726348877
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, wp_hash, wp_salt, get_site_option, get_network_option, get_option
         )
 
     [4] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'autoptimize_extra_settings' LIMIT 1
-            [1] => 0.00019407272338867
+            [1] => 0.00019311904907227
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, do_action('autoptimize_setup_done'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->maybe_run_ao_extra, autoptimizeExtra->__construct, autoptimizeExtra->fetch_options, get_option
         )
 
     [5] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'autoptimize_imgopt_provider_stat' LIMIT 1
-            [1] => 0.00024914741516113
+            [1] => 0.00017404556274414
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, do_action('autoptimize_setup_done'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->maybe_run_ao_extra, autoptimizeExtra->run, autoptimizeExtra->run_on_frontend, autoptimizeExtra->get_imgopt_provider_userstatus, get_option
         )
 
     [6] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
-            [1] => 0.00019192695617676
+            [1] => 0.00011014938354492
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wpcf7, wpcf7_load_textdomain, get_locale, get_option
         )
 
@@ -80,7 +80,7 @@
 				GROUP BY post_type
 				ORDER BY post_modified_gmt DESC
 			
-            [1] => 0.00038385391235352
+            [1] => 0.00045514106750488
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Post_Type_Sitemap_Provider->get_index_links, WPSEO_Sitemaps::get_last_modified_gmt
         )
 
@@ -99,7 +99,7 @@
 		
 				
 		
-            [1] => 0.00017213821411133
+            [1] => 0.00021982192993164
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Post_Type_Sitemap_Provider->get_index_links, WPSEO_Post_Type_Sitemap_Provider->get_post_type_count
         )
 
@@ -118,35 +118,35 @@
 		
 				
 		
-            [1] => 0.00019979476928711
+            [1] => 0.00017309188842773
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Post_Type_Sitemap_Provider->get_index_links, WPSEO_Post_Type_Sitemap_Provider->get_post_type_count
         )
 
     [10] => Array
         (
             [0] => SELECT  t.term_id, tt.parent, tt.count, tt.taxonomy FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') ORDER BY t.name ASC 
-            [1] => 0.00020384788513184
+            [1] => 0.00026702880859375
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Taxonomy_Sitemap_Provider->get_index_links, get_terms, WP_Term_Query->query, WP_Term_Query->get_terms
         )
 
     [11] => Array
         (
             [0] => SELECT term_id, meta_key, meta_value FROM wp_termmeta WHERE term_id IN (1) ORDER BY meta_id ASC
-            [1] => 0.00011515617370605
+            [1] => 0.00028014183044434
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Taxonomy_Sitemap_Provider->get_index_links, get_terms, WP_Term_Query->query, WP_Term_Query->get_terms, update_termmeta_cache, update_meta_cache
         )
 
     [12] => Array
         (
             [0] => SELECT  t.term_id, tt.parent, tt.count, tt.taxonomy FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag') AND tt.count > 0 ORDER BY t.name ASC 
-            [1] => 0.00016999244689941
+            [1] => 0.00023698806762695
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Taxonomy_Sitemap_Provider->get_index_links, get_terms, WP_Term_Query->query, WP_Term_Query->get_terms
         )
 
     [13] => Array
         (
             [0] => SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') AND t.term_id IN ( 1 )  
-            [1] => 0.0001521110534668
+            [1] => 0.00017404556274414
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Taxonomy_Sitemap_Provider->get_index_links, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
         )
 
@@ -155,35 +155,35 @@
             [0] => SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  LEFT JOIN wp_term_relationships ON (wp_posts.ID = wp_term_relationships.object_id) WHERE 1=1  AND ( 
   wp_term_relationships.term_taxonomy_id IN (1)
 ) AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish') GROUP BY wp_posts.ID ORDER BY wp_posts.post_modified DESC LIMIT 0, 1
-            [1] => 0.0002281665802002
+            [1] => 0.00032496452331543
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Taxonomy_Sitemap_Provider->get_index_links, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
         )
 
     [15] => Array
         (
             [0] => SELECT FOUND_ROWS()
-            [1] => 5.5074691772461E-5
+            [1] => 7.5101852416992E-5
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Taxonomy_Sitemap_Provider->get_index_links, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
         )
 
     [16] => Array
         (
             [0] => SELECT wp_posts.* FROM wp_posts WHERE ID IN (1)
-            [1] => 0.00017309188842773
+            [1] => 0.00022292137145996
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Taxonomy_Sitemap_Provider->get_index_links, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, _prime_post_caches
         )
 
     [17] => Array
         (
             [0] => SELECT  t.*, tt.*, tr.object_id FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('category', 'post_tag', 'post_format') AND tr.object_id IN (1) ORDER BY t.name ASC 
-            [1] => 0.0004889965057373
+            [1] => 0.00053596496582031
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Taxonomy_Sitemap_Provider->get_index_links, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, _prime_post_caches, update_post_caches, update_object_term_cache, wp_get_object_terms, get_terms, WP_Term_Query->query, WP_Term_Query->get_terms
         )
 
     [18] => Array
         (
             [0] => SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (1) ORDER BY meta_id ASC
-            [1] => 0.00014400482177734
+            [1] => 0.00015711784362793
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Taxonomy_Sitemap_Provider->get_index_links, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, _prime_post_caches, update_post_caches, update_postmeta_cache, update_meta_cache
         )
 
@@ -198,7 +198,7 @@
     ( mt1.meta_key = 'wp_user_level' AND mt1.meta_value != '0' )
   )
 ) ORDER BY user_login ASC 
-            [1] => 0.00027084350585938
+            [1] => 0.00029110908508301
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Author_Sitemap_Provider->get_index_links, WPSEO_Author_Sitemap_Provider->update_user_meta, get_users, WP_User_Query->__construct, WP_User_Query->query
         )
 
@@ -217,21 +217,21 @@
     )
   )
 ) ORDER BY wp_usermeta.meta_value+0 DESC 
-            [1] => 0.00044989585876465
+            [1] => 0.00047683715820312
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Author_Sitemap_Provider->get_index_links, WPSEO_Author_Sitemap_Provider->get_users, get_users, WP_User_Query->__construct, WP_User_Query->query
         )
 
     [21] => Array
         (
             [0] => SELECT * FROM wp_users WHERE ID = '1'
-            [1] => 0.00011706352233887
+            [1] => 0.0001218318939209
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Author_Sitemap_Provider->get_index_links, get_user_by, WP_User::get_data_by
         )
 
     [22] => Array
         (
             [0] => SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1) ORDER BY umeta_id ASC
-            [1] => 0.00013494491577148
+            [1] => 0.00014185905456543
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Sitemaps->build_root_map, WPSEO_Author_Sitemap_Provider->get_index_links, get_user_by, WP_User->init, WP_User->for_site, WP_User->get_caps_data, get_user_meta, get_metadata, update_meta_cache
         )
 

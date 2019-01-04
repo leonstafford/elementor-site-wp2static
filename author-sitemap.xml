@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//example.test/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://google.com/author/admin/</loc>
+		<loc>https://google.com/author/admin/</loc>
 		<lastmod>2019-01-03T07:31:22+00:00</lastmod>
 	</url>
 </urlset>
@@ -12,49 +12,49 @@
     [0] => Array
         (
             [0] => SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
-            [1] => 0.00060081481933594
+            [1] => 0.00060105323791504
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), wp_not_installed, is_blog_installed, wp_load_alloptions
         )
 
     [1] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'bedrock_autoloader' LIMIT 1
-            [1] => 0.00022602081298828
+            [1] => 0.00025820732116699
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), include_once('/mu-plugins/bedrock-autoloader.php'), Roots\Bedrock\Autoloader->__construct, Roots\Bedrock\Autoloader->loadPlugins, Roots\Bedrock\Autoloader->checkCache, get_site_option, get_network_option, get_option
         )
 
     [2] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'auth_key' LIMIT 1
-            [1] => 0.0002448558807373
+            [1] => 0.0002748966217041
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, wp_hash, wp_salt, get_site_option, get_network_option, get_option
         )
 
     [3] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'auth_salt' LIMIT 1
-            [1] => 0.00020885467529297
+            [1] => 0.00014686584472656
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, wp_hash, wp_salt, get_site_option, get_network_option, get_option
         )
 
     [4] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'autoptimize_extra_settings' LIMIT 1
-            [1] => 0.0001990795135498
+            [1] => 0.00021791458129883
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, do_action('autoptimize_setup_done'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->maybe_run_ao_extra, autoptimizeExtra->__construct, autoptimizeExtra->fetch_options, get_option
         )
 
     [5] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'autoptimize_imgopt_provider_stat' LIMIT 1
-            [1] => 0.00020003318786621
+            [1] => 0.00030994415283203
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->setup, do_action('autoptimize_setup_done'), WP_Hook->do_action, WP_Hook->apply_filters, autoptimizeMain->maybe_run_ao_extra, autoptimizeExtra->run, autoptimizeExtra->run_on_frontend, autoptimizeExtra->get_imgopt_provider_userstatus, get_option
         )
 
     [6] => Array
         (
             [0] => SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
-            [1] => 0.00022387504577637
+            [1] => 0.00022006034851074
             [2] => require('wp-blog-header.php'), require_once('wp-load.php'), require_once('/srv/www/example.com/current/web/wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wpcf7, wpcf7_load_textdomain, get_locale, get_option
         )
 
@@ -73,21 +73,21 @@
     )
   )
 ) ORDER BY wp_usermeta.meta_value+0 DESC LIMIT 0, 1000
-            [1] => 0.00072884559631348
+            [1] => 0.0011570453643799
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Author_Sitemap_Provider->get_sitemap_links, WPSEO_Author_Sitemap_Provider->get_users, get_users, WP_User_Query->__construct, WP_User_Query->query
         )
 
     [8] => Array
         (
             [0] => SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1) ORDER BY umeta_id ASC
-            [1] => 0.00028204917907715
+            [1] => 0.00035691261291504
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Author_Sitemap_Provider->get_sitemap_links, WPSEO_Author_Sitemap_Provider->get_users, get_users, WP_User_Query->__construct, WP_User_Query->query, WP_User->__construct, WP_User->init, WP_User->for_site, WP_User->get_caps_data, get_user_meta, get_metadata, update_meta_cache
         )
 
     [9] => Array
         (
             [0] => SELECT * FROM wp_users WHERE ID = '1'
-            [1] => 0.00015497207641602
+            [1] => 0.00035381317138672
             [2] => require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, WPSEO_Sitemaps->redirect, WPSEO_Sitemaps->build_sitemap, WPSEO_Author_Sitemap_Provider->get_sitemap_links, get_author_posts_url, get_userdata, get_user_by, WP_User::get_data_by
         )
 
